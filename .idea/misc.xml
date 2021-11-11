@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aluno/Desktop/FinanceGuysV1/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="app/src/main/res/layout/activity_cadastro_despesa.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_filtro_lista.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_lista_despesas.xml" value="0.27309782608695654" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.27309782608695654" />
+        <entry key="app/src/main/res/layout/activity_tela_usuario.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/adpter_item_lista.xml" value="0.27309782608695654" />
+        <entry key="app/src/main/res/layout/tela_cadastro_activity.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/tela_inicial_activity.xml" value="0.35572916666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

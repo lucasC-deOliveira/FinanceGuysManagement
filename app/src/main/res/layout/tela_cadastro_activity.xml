@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CadastroActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="332dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/idNomeUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/idNomeUsuario"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="Digite o nome "
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/idEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/idEmail"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Digite o seu email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/idPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idNomeUsuario" />
+
+    <Button
+        android:id="@+id/idButton"
+        android:layout_width="0dp"
+        android:layout_height="83dp"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Enviar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <EditText
+        android:id="@+id/idPassword"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/idConfimSenha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idEmail" />
+
+    <EditText
+        android:id="@+id/idConfimSenha"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:hint="Confirme a sua senha "
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/idButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

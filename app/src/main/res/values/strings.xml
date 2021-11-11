@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FinanceGuys</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_cadastroDespesas">Cadastrar Despesas</string>
+
+
+    <string-array name="tipoDespesasArray">
+        <item>NDA</item>
+        <item>Educação</item>
+        <item>Alimentação</item>
+        <item>Transporte</item>
+        <item>Roupas</item>
+        <item>Jogos</item>
+        <item>Musica</item>
+        <item>Lazer</item>
+        <item>Viagem</item>
+        <item>Saúde</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enviar">Enviar</string>
+    <string name="listar">Listar</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "268006262451",
+    "project_id": "financeguysv1",
+    "storage_bucket": "financeguysv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268006262451:android:6e5a2d07ea59f6929fd2c6",
+        "android_client_info": {
+          "package_name": "com.example.financeguysv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268006262451-ri6c8dreamaim2sfap8ko02mlb3076kl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOyfLLc0k7op3xXCIWHqURbS1BnWRFvuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268006262451-ri6c8dreamaim2sfap8ko02mlb3076kl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
